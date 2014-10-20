@@ -24,3 +24,15 @@ The service will show a very basic dashboard (we could skip this at the beginnin
  * Notifies the notify url
  * Send an email with build result
 
+Contribute
+==========
+
+The project is still in early stage (basically not started yet) and the idea is to write it in Python. If anyone is willing to contribute, please get in touch with us.
+
+Authors
+=======
+
+This project is being developed by:
+
+ * Andrea Grandi (andreagrandi)
+ * Christoph Witzany (DoubleMalt)
