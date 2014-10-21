@@ -8,7 +8,11 @@ Why
 
 Docker.io offers a very useful service: not only it can host your public or private images, it also has a service that can be triggered by a GitHub or Bitbucket hook and create a build of the docker image.
 
-The problem of this service is that is assumes the user wants to host the image on docker.io and it's not possible to tell him to push to another docker registry.
+docker.io has two big limits and docker-registry aims to fix them:
+
+1) docker.io assumes the user wants to host the image on docker.io and it's not possible to tell him to push to another docker registry. docker-builder will let you specify the docker registry where to push the image.
+
+2) docker.io requires your Dockerfile to be in the root of your source code (to be accessible to the context). This is a well known Docker limitation, but it can be easily worked around symlinking the code inside a subfolder where Dockerfile is located.
 
 What
 ====
